@@ -3,30 +3,30 @@ console.log('hello world')
 function homepage()
 {
 
-    window.location = '/HTML/homepage.html'
+    window.location = '/homepage.html'
 
 }
 
 
 function Hobbies ()
 {
-   window.location = "/HTML/hobbies.html"
+   window.location = "/hobbies.html"
 }
 
 
 function werk()
 {
 
-window.location = "/HTML/werk.html"
+window.location = "/werk.html"
 
 }
 
 function Skills(){
-    window.location = "/HTML/Skills.html"
+    window.location = "/Skills.html"
 }
 
 function extra(){
-    window.location="/HTML/extra.html"
+    window.location="/extra.html"
 }
 
 function facebook(){
