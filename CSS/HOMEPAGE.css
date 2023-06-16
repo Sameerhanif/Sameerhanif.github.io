@@ -27,43 +27,41 @@
 
 
 
-html {    
-    background: url('/IMG/backgroundd.gif') no-repeat center fixed;     
-    background-size: cover;
-    height: 500px;
-    background-color: #000;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 
-.container {
-    width: 2200px;
-    height: 1000px;
-    margin: 200px auto;
-  
-}
 
 
-.glass {
-    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border: 1px solid rgba(255,255,255,0,18);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-}
 
-button:hover {
-    background-color: rgb(200, 255, 127);
+
+* {
+    box-sizing: border-box;
   }
-
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(49, 49, 49);
+  }
+  
+  .header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    background-image: url(/IMG/WALLPAPERE.png);
+  }
+  
+  .header h1 {
+    font-size: 40px;
+    
+  }
+  
   .container {
     width: 800px;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    background-color: rgb(49, 49, 49);
   }
    
 .container .btn 
@@ -126,7 +124,7 @@ button:hover {
     bottom: -5px;
     width: 30px;
     height: 10px;
-    background: #79e6e0;
+    background: #f00;
     border-radius:10px;
     transition: 0.5s;
     transition-delay: 0s;
@@ -150,7 +148,7 @@ button:hover {
     top: -5px;
     width: 30px;
     height: 10px;
-    background: rgb(173, 237, 240);
+    background: #f00;
     border-radius:10px;
     transition: 0.5s;
     transition-delay: 0s;
@@ -167,14 +165,39 @@ button:hover {
 
 .container .btn:nth-child(1)::before,
 .container .btn:nth-child(1)::after{
-    background: #79e6e0;
-    box-shadow: 0 0 5px #79e6e0,
-    0 0 15px #79e6e0,
-    0 0 30px #79e6e0,
-    0 0 60px #79e6e0,
+    background: #ff1f71;
+    box-shadow: 0 0 5px #ff1f71,
+    0 0 15px #ff1f71,
+    0 0 30px #ff1f71,
+    0 0 60px #ff1f71,
 }
 
+.container .btn:nth-child(2)::before,
+.container .btn:nth-child(2)::after{
+    background: #3bf2ff;
+    box-shadow: 0 0 5px #3bf2ff,
+    0 0 15px #3bf2ff,
+    0 0 30px #3bf2ff,
+    0 0 60px #3bf2ff,
+}
 
+.container .btn:nth-child(3)::before,
+.container .btn:nth-child(3)::after{
+    background: #06ff2f;
+    box-shadow: 0 0 5px #06ff2f,
+    0 0 15px #06ff2f,
+    0 0 30px #06ff2f,
+    0 0 60px #06ff2f,
+}
+
+.container .btn:nth-child(4)::before,
+.container .btn:nth-child(4)::after{
+    background: #e25ef3;
+    box-shadow: 0 0 5px #e25ef3,
+    0 0 15px #e25ef3,
+    0 0 30px #e25ef3,
+    0 0 60px #e25ef3,
+}
 
 .container {
    color:white; 
@@ -182,9 +205,53 @@ button:hover {
    width: 900px;
    
 }
+  
+  .row {  
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+  }
+  
+ 
+  .side {
+    -ms-flex: 30%; 
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
 
-img {
-    width: 360px;
-    height: 360px;
-    border-radius: 900px;
-}
+  .main {   
+    -ms-flex: 70%; 
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(44, 44, 44);
+    background-image: url(/IMG/);
+  }
+  
+ 
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
