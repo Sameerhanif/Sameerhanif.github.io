@@ -54,7 +54,7 @@
     
   }
   
-  .container-fluid {
+  .container {
     width: 800px;
     display: flex;
     flex-wrap: wrap;
@@ -62,14 +62,14 @@
     background-color: rgb(49, 49, 49);
   }
    
-  .container-fluid.btn 
+.container .btn 
 {
     position:relative;
     width:155px;
     height:50px;
     margin: 20px;
 }
-.container-fluid.btn a {
+.container .btn a {
     position: absolute;
     top:0;
     left:0;
@@ -93,11 +93,11 @@
     backdrop-filter: blur(15px);
 }
 
-.container-fluid.btn:hover a {
+.container .btn:hover a {
     letter-spacing: 3px;
 }
 
-.container-fluid.btn a::before {
+.container .btn a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -109,11 +109,11 @@
     transition: 0.5s;
 }
 
-.container-fluid.btn:hover a::before {
+.container .btn:hover a::before {
     transform:skewX(45deg) translate(200%)
 }
 
-.container-fluid.btn::before 
+.container .btn::before 
 {
     content: '';
     position: absolute;
@@ -128,7 +128,7 @@
     transition-delay: 0s;
 }
 
-.container-fluid.btn:hover::before 
+.container .btn:hover::before 
 {
     bottom:0;
     height: 50%;
@@ -137,7 +137,7 @@
     transition-delay: 0.5s;
 }
 
-.container-fluid.btn::after 
+.container .btn::after 
 {
     content: '';
     position: absolute;
@@ -152,7 +152,7 @@
     transition-delay: 0s;
 }
 
-.container-fluid.btn:hover::after
+.container .btn:hover::after
 {
     top:0;
     height: 50%;
@@ -161,8 +161,8 @@
     transition-delay: 0.5s;
 }
 
-.container-fluid.btn:nth-child(1)::before,
-.container-fluid.btn:nth-child(1)::after{
+.container .btn:nth-child(1)::before,
+.container .btn:nth-child(1)::after{
     background: #ff1f71;
     box-shadow: 0 0 5px #ff1f71,
     0 0 15px #ff1f71,
@@ -170,8 +170,8 @@
     0 0 60px #ff1f71,
 }
 
-.container-fluid.btn:nth-child(2)::before,
-.container-fluid.btn:nth-child(2)::after{
+.container .btn:nth-child(2)::before,
+.container .btn:nth-child(2)::after{
     background: #3bf2ff;
     box-shadow: 0 0 5px #3bf2ff,
     0 0 15px #3bf2ff,
@@ -179,8 +179,8 @@
     0 0 60px #3bf2ff,
 }
 
-.container-fluid.btn:nth-child(3)::before,
-.container-fluid.btn:nth-child(3)::after{
+.container .btn:nth-child(3)::before,
+.container .btn:nth-child(3)::after{
     background: #06ff2f;
     box-shadow: 0 0 5px #06ff2f,
     0 0 15px #06ff2f,
@@ -188,8 +188,8 @@
     0 0 60px #06ff2f,
 }
 
-.container-fluid.btn:nth-child(4)::before,
-.container-fluid.btn:nth-child(4)::after{
+.container .btn:nth-child(4)::before,
+.container .btn:nth-child(4)::after{
     background: #e25ef3;
     box-shadow: 0 0 5px #e25ef3,
     0 0 15px #e25ef3,
@@ -197,7 +197,7 @@
     0 0 60px #e25ef3,
 }
 
-.container-fluid {
+.container {
    color:white; 
    background-image: url(/img/RAINY.gif);
    width: 900px;
