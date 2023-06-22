@@ -1,0 +1,128 @@
+ button {
+  margin-top: -50%;
+ }
+
+ .button1 {background-color: #6a05a5;
+  border: none;
+  color: white;
+  padding: 25px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  position:left;
+  bottom: 0;
+  right: 50%;
+  width: 300px;
+  border: 3px solid #9c0404;
+  cursor:pointer;
+  margin-left: 800px;
+  margin-bottom: 9px;
+}
+  
+ .button3 {background-color: #a00a0a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  position:left;
+  bottom: 0;
+  right: 50%;
+  width: 150px;
+  border: 3px solid #a30505;
+  cursor:pointer;
+  margin-left: 950px;
+  margin-top: 10%;
+  margin-bottom: -45%
+}
+  
+ .button4 {background-color: #00d10a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  position:left;
+  bottom: 0;
+  right: 50px;
+  width: 150px;
+  border: 3px solid #06e02a;
+  cursor:pointer;
+  margin-left: 650px;
+  margin-top: 10%;
+}
+
+
+body {
+  background-image:    url(/games/HL/p/BraveOptimalBaleenwhale-size_restricted.gif);
+  background-size:     cover;                     
+  background-repeat:   repeat;
+  background-position: center center;    
+  width:600px;
+  height:600px;          
+  border: 5px;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 160px;
+  width: 200px;
+  padding:50px;
+  position:absolute;
+  transform:translate(-50%,-50%); 
+  top:50%;
+  right:650px;
+  background-color:rgb(255, 255, 255);
+  border-radius:10px;
+  box-shadow: 0 15px 25px rgba(50,50,50,0.15);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.dice-wrap {
+  width:90%;
+  display:flex;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+.bottom {
+  padding-top: 30px;
+}
+
+div.right {
+  height: 160px;
+  width: 200px;
+  padding:50px;
+  position:absolute;
+  transform:translate(-50%,-50%); 
+  top:50%;
+  left:1055px;
+  background-color:rgb(255, 255, 255);
+  border-radius:10px;
+  box-shadow: 0 15px 25px rgba(50,50,50,0.15);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  border-color: #9c0404;
+}
+
+ 
