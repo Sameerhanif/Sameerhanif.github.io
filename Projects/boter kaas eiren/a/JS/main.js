@@ -401,6 +401,6 @@ function myfunc_11() {
 function pve()
 {
 
-window.location = "/game2/boter.html"
+window.location = "/Projects/boter kaas eiren/a/game2/boter.html"
 
 }
